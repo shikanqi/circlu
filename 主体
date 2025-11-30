@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>资源社区 - 分享，更自由</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-white text-gray-800">
+
+  <!-- 导航栏 -->
+  <nav class="w-full flex justify-between items-center py-4 px-8 border-b bg-white">
+    <div class="text-xl font-bold">ResHub</div>
+    <div class="flex gap-6 text-gray-600">
+      <a href="#" class="hover:text-black">资源</a>
+      <a href="#" class="hover:text-black">社区</a>
+      <a href="#" class="hover:text-black">下载</a>
+    </div>
+    <div class="flex gap-4">
+      <button class="px-4 py-2 border rounded-lg hover:bg-gray-100">登录</button>
+      <button class="px-4 py-2 bg-black text-white rounded-lg hover:bg-gray-800">
+        注册
+      </button>
+    </div>
+  </nav>
+
+  <!-- 主视觉区域 -->
+  <section class="text-center py-28 px-6">
+    <h1 class="text-5xl font-bold leading-tight text-gray-900 mb-6">
+      分享资源，连接社区。
+    </h1>
+    <p class="text-gray-600 text-lg mb-10">
+      一个为创作者与用户打造的开放、纯净的资源交流平台。
+    </p>
+    <button class="px-8 py-4 bg-black text-white rounded-xl text-lg hover:bg-gray-800 transition">
+      开始探索
+    </button>
+  </section>
+
+  <!-- 三大亮点区 -->
+  <section class="max-w-6xl mx-auto px-6 py-20 grid grid-cols-1 md:grid-cols-3 gap-10">
+    <div class="p-8 border rounded-2xl shadow-sm hover:shadow-md transition">
+      <h3 class="text-2xl font-semibold mb-3">自由分享资源</h3>
+      <p class="text-gray-600">一个面向所有人的开放资源库，支持多种文件与内容形式。</p>
+    </div>
+
+    <div class="p-8 border rounded-2xl shadow-sm hover:shadow-md transition">
+      <h3 class="text-2xl font-semibold mb-3">加入兴趣社区</h3>
+      <p class="text-gray-600">像 Discord 一样的频道系统，聚合同好，组织讨论。</p>
+    </div>
+
+    <div class="p-8 border rounded-2xl shadow-sm hover:shadow-md transition">
+      <h3 class="text-2xl font-semibold mb-3">实时聊天与协作</h3>
+      <p class="text-gray-600">轻量、顺滑的实时聊天体验，支持群组与频道。</p>
+    </div>
+  </section>
+
+  <!-- 页脚 -->
+  <footer class="text-center py-10 text-gray-500 border-t">
+    © 2025 ResHub. All rights reserved.
+  </footer>
+
+</body>
+</html>
